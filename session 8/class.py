@@ -68,7 +68,7 @@
 def convertStringToList(text):
     result = text.split(', ')
     result.sort()
-    
+    return result
 
 userInput = input("Enter everything, seperated by ',': ")
 

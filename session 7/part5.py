@@ -6,8 +6,7 @@ print(max(popuList))
 print(min(popuList))
 
 for index in districtList:
-    if districtList == popuList:
-        print(max(districtList))
+    if districtList == popuL
 
 
 

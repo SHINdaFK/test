@@ -15,14 +15,12 @@ else:
 # 3.3
 month = input("Enter your month: ")
 
-if month == ['September', 'April', 'June', 'November']:
+if month == 'September' or month == 'April' or month == 'June' or month == 'November':
     print(30)
-
-elif month == ['January', 'March', 'May', 'July', 'August', 'October', 'December']:
+elif month == 'January' or month == 'March' or month == 'May' or month== 'July' or month == 'August' or month == 'October' or month== 'December':
     print(31)
-
 elif month == 'February':
-    print(28 + "or" + 29)
+    print(28, "or", 29)
 
-else: 
-    print("Blank")
+else:
+    print('Blank')

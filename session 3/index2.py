@@ -36,5 +36,14 @@ for i in range(100, -2, -2):
 for i in range(0, 102, -2):
     print(i, end = " ")
 
+# for loop
+# for variablie_name in <collection>:
+#    <statement>
+
+#for (item,index) in a:
+
+# while loop
+# while expression 
+#   <statement>
 
 

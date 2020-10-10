@@ -35,16 +35,4 @@ def HinhHoc(Shapetype, repeatition):
 
 HinhHoc(shapeInput,Times)
 
-
 mainloop()
-
-
-
-
-
-
-
-
-
-
-

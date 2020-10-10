@@ -24,26 +24,51 @@ for i in range(5, n, 1):
 for i in reversed(range(20, 9, -1)):
     print(i)
 
-n = input("Enter your number: ")
-m = input("Enter your number: ")
+n = int(input("Enter your number: "))
+m = int(input("Enter your number: "))
 
 for i in reversed(range(n, m)):
     if condition: n > m,
         else print(i)
         else print("error message")
 
+from turtle import *
+shape('turtle')
+fillcolor("yellow")
+begin_fill()
+for i in range(3):
+    forward(100)
+    left(120)
 
+end_fill()
 
+mainloop()
 
+from turtle import *
+shape('turtle')
+fillcolor("yellow")
+begin_fill()
+for i in range(1):
+    circle(100)
 
+end_fill()
 
+mainloop()
 
+from turtle import *
+shape('turtle')
+fillcolor("yellow")
+begin_fill()
+for i in range(6):
+    circle(100)
+    left(60)
 
+end_fill()
 
-
+mainloop()
 
     
-    N = int(input("Count: "))
+N = int(input("Count: "))
 
 allsum = 0
 b = 0

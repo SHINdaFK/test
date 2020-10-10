@@ -5,13 +5,15 @@
 
 # # 4.2
 # password = input("Enter your password: ")
-# confirm_password = input("Enter your password again: ")
-# while True:
-#     if confirm_password == password:
-#         print("Your done")
+# repassword = input("Enter your password again: ")
+# if ("@" in email) and (len(password) >= 8):
+#     if (repassword == password):
+#         print("Sign up success")
+#         isDone = False
 #     else:
-#         print("Retry")
-# break
+#         print("Wrong password")
+# else:
+#     print("Password need to have atleast 8 Character")
 
 # # 4.3 Case Login
 # userInput = input("Enter your name: ")
@@ -47,4 +49,4 @@ while isDone:
         else:
             print("Wrong password")
     else:
-        print("Password at 8 Character")
+        print("Password need to have atleast 8 Character")

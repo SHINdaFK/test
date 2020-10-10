@@ -15,6 +15,6 @@ new_laptop_value = int(input("What is the laptop amounts: "))
 listLaptop[new_laptop] = new_laptop_value
 print(listLaptop)
 # # 2.3
-listLaptop['DELL'] = 60
-listLaptop['Macbook'] = 2
+listLaptop["DELL"] = 60
+listLaptop["Macbook"] = 2
 print(listLaptop)

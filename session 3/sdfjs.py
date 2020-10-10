@@ -1,4 +1,5 @@
-shape('arrow')
+from turtle import *
+shape('turtle')
 fillcolor("yellow")
 begin_fill()
 for i in range(3):

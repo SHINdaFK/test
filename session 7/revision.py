@@ -1,27 +1,27 @@
-myNumbers = [1,3,7,9,10,23]
-print(sum(myNumbers))
-result = 0 
+# userInput = input("Enter list items and split by (,): ")
 
-userInput = input("Enter list items and split by (,): ")
+# # myNumbers = [1,3,7,9,10,23]
+# # print(sum(myNumbers))
+# # result = 0 
 
-favourite = ['esport', 'soccer', 'pes', 'motor']
-print(favourite)
+# # favourite = ['esport', 'soccer', 'pes', 'motor']
+# # print(favourite)
 
-for i in favourite:
-    if i == 'soccer':
-        print(i)
-    else:
-        break
+# # for i in favourite:
+# #     if i == 'soccer':
+# #         print(i)
+# #     else:
+# #         break
 
-if 'soccer' in favourite:
-    print("Hello")
-else:
-    print("Not found") 
+# # if 'soccer' in favourite:
+# #     print("Hello")
+# # else:
+# #     print("Not found") 
 
-favourite[0] = 'sport'
-print(favourite)
+# # favourite[0] = 'sport'
+# # print(favourite)
 
-favourite.append('badminton')
-print(favourite)
+# # favourite.append('badminton')
+# # print(favourite)
 
-favourite.pop()
+# # favourite.pop()
